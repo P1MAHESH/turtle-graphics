@@ -1,0 +1,35 @@
+# This is done using the PyCharm community so please download the PyCharm or install the turtle and colorgram 
+# packages in your respective interpreter this is done by PATTIMANI MAHESH
+
+from turtle import *
+import random
+import colorgram
+colormode(255)
+shape('turtle')
+color('green')
+color_list=[(244, 241, 233), (229, 235, 244), (246, 233, 240), (232, 243, 236), (210, 158, 94), (234, 214, 99), (39, 104, 147), (128, 168, 196), (151, 78, 54), (204, 137, 162)]
+penup()
+def co():
+    penup()
+    setheading(225)
+    forward(300)
+    setheading(0)
+
+def fr():
+    for i in range(10):
+        dot(10,random.choice(color_list))
+        forward(50)
+for i in range(10):
+    fr()
+    backward(500)
+    right(90)
+    forward(50)
+    left(90)
+exitonclick()
+
+
+
+
+
+# RGB and HSL are named tuples, so values can be accessed as properties.
+# These all work just as well:
