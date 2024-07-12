@@ -26,10 +26,3 @@ for i in range(10):
     forward(50)
     left(90)
 exitonclick()
-
-
-
-
-
-# RGB and HSL are named tuples, so values can be accessed as properties.
-# These all work just as well:
